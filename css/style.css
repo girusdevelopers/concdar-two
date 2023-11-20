@@ -3685,8 +3685,8 @@ dl.hiw {
       left: 0;
       bottom: 0; }
   .footer .footer-item .footer-sosmed {
-    margin-top: 50px;
-    margin-bottom: 30px;
+    /* margin-top: 50px;
+    margin-bottom: 30px; */
     display: inline-block; }
     .footer .footer-item .footer-sosmed a .item {
       color: #ffffff;
