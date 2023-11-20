@@ -3169,8 +3169,8 @@ dl.hiw {
       background-color: #0c1f38; }
 
 /* 6.2 - Services */
-.banner-page.project {
-  background: url("../images/1920x1300.jpg") bottom center no-repeat; }
+.section.banner-page.project {
+  background: url("https://img.freepik.com/free-photo/portrait-indigenous-person-showcasing-day-day-life_23-2149711072.jpg?size=626&ext=jpg&ga=GA1.1.1156409349.1694583044") bottom center no-repeat; }
 
 /*.section.project{
 	background: url('../images/1920x1300.jpg') bottom center no-repeat;
