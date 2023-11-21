@@ -633,7 +633,7 @@ i, cite, em, var, address, dfn {
   margin: -100px 0 0 -100px;
   width: 200px;
   height: 200px;
-  background-image: url("../images/apple-touch-icon.png");
+  background-image: url("../images/logo/logo-dark.png");
   background-position: center;
   background-repeat: no-repeat; }
 
@@ -1202,7 +1202,7 @@ Back To Top Section
   margin: -100px 0 0 -100px;
   width: 200px;
   height: 200px;
-  background-image: url("../images/apple-touch-icon.png");
+  background-image: url("../images/logo/logo-footer.png");
   background-position: center;
   background-repeat: no-repeat; }
 
@@ -1251,7 +1251,7 @@ Back To Top Section
 
 .navbar-main .btn-orange-cta:hover {
   background-color: #abdf1d;
-  color: #ffffff; }
+  color: white; }
 
 .btn-primary {
   background-color: #abdf1d;
@@ -2871,7 +2871,11 @@ Back To Top Section
   .navbar-main .nav > li.active > a,
   .navbar-main .nav > li > a:hover,
   .navbar-main .nav > li > a:focus {
+<<<<<<< HEAD
     color: #abdf1d;
+=======
+    text-decoration: underline;
+>>>>>>> 4a44f4a8d084b1dc75c2d08b8e87d45db7aed75e
     background-color: transparent; }
   .navbar-main .nav .open > a, .navbar-main .nav .open > a:hover, .navbar-main .nav .open > a:focus {
     background-color: transparent;
@@ -3051,7 +3055,7 @@ Back To Top Section
  */
 .banner-page {
   padding: 100px 0;
-  background: url("../images/1920x1300.jpg") bottom center no-repeat;
+  background: url("../images/index/index.jpg") bottom center no-repeat;
   background-attachment: fixed;
   background-size: cover; }
 
@@ -3188,7 +3192,7 @@ dl.hiw {
 	opacity: .9;
 }*/
 .bg-dark {
-  background: url("../images/1920x1300.jpg") bottom center no-repeat;
+  background: url("../images/index/index.jpg") bottom center no-repeat;
   background-attachment: fixed;
   background-size: cover; }
 
