@@ -2233,7 +2233,7 @@ Back To Top Section
     top: 8px;
     width: 9px;
     height: 9px;
-    background: #fde428;
+    background: #abdf1d;
     border-radius: 100%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%); }
@@ -2871,11 +2871,7 @@ Back To Top Section
   .navbar-main .nav > li.active > a,
   .navbar-main .nav > li > a:hover,
   .navbar-main .nav > li > a:focus {
-<<<<<<< HEAD
     color: #abdf1d;
-=======
-    text-decoration: underline;
->>>>>>> 4a44f4a8d084b1dc75c2d08b8e87d45db7aed75e
     background-color: transparent; }
   .navbar-main .nav .open > a, .navbar-main .nav .open > a:hover, .navbar-main .nav .open > a:focus {
     background-color: transparent;
@@ -3465,6 +3461,9 @@ dl.hiw {
 
 .border-right {
   border-right: 1px solid #ccc; }
+  .line{
+    line-height: 3rem;
+  }
 
 .about-img {
   position: relative;
@@ -3716,7 +3715,7 @@ dl.hiw {
       list-style: none;
       margin: 14px 0; }
       .footer .footer-item .list li a {
-        color: #abdf1d; }
+        color: white; }
         .footer .footer-item .list li a:hover {
           color: #abdf1d; }
   .footer .footer-item .footer-subscribe {
