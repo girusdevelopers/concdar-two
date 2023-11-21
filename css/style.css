@@ -698,7 +698,7 @@ i, cite, em, var, address, dfn {
   font-weight: 800;
   color: #000000;
   margin-bottom: 40px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-bottom: 5px;
   position: relative;
   text-align: center; }
