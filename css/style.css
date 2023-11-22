@@ -1156,6 +1156,7 @@ Back To Top Section
   color: #abdf1d; }
   .readmore:hover {
     color: #abdf1d;
+    /* transition: 0.15s ease-in-out; */
     text-decoration: underline; }
 
 /**
@@ -1199,12 +1200,19 @@ Back To Top Section
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -100px 0 0 -100px;
-  width: 200px;
-  height: 200px;
-  background-image: url("../images/logo/loader-logo.png");
-  background-position: center;
-  background-repeat: no-repeat; }
+  border: 4px solid #3498db;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+ 
 
 /* 2.2. BUTTONS */
 :focus {
@@ -1521,7 +1529,8 @@ Back To Top Section
       width: 30px;
       display: block;
       margin: 7% 0;
-      background: #e6af2a; }
+      background: #6a881a;
+      }
   .box-icon-5 .text {
     color: #626262; }
   .box-icon-5:hover .icon {
