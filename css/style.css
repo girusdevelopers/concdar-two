@@ -291,15 +291,9 @@ body {
 /* The dot/bullet/indicator container */
 .dot-container {
   text-align: center;
-<<<<<<< HEAD
-  padding: 20px;
-  background: ;
-}
-=======
   padding: 19px;
   background: ;
-  }
->>>>>>> c29b20bc0acc97074cb8513f54e24b29c21d4302
+}
 
 /* The dots/bullets/indicators */
 .dot {
@@ -315,9 +309,9 @@ body {
 
 /* Add a background color to the active dot/circle */
 .active,
-.dot:hover {
+/* .dot:hover {
   background-color: #717171;
-}
+} */
 
 /* Add an italic font style to all quotes */
 q {
@@ -1230,6 +1224,15 @@ ul.circle li:before {
   background-color: #abdf1d;
   opacity: 0.9;
 }
+.logo-image {
+  width: 100px;
+  height: 120px;
+}
+.logo-image :hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
 
 .grid-services {
   margin-top: 30px;
@@ -1240,6 +1243,9 @@ ul.circle li:before {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+/* .item{
+  padding-bottom: 30px;
+} */
 
 .margin-bottom-10 {
   margin-bottom: 10px;
@@ -2496,6 +2502,7 @@ Back To Top Section
 /* TESTIMONIALS 1 */
 .testimonial-1 {
   position: relative;
+  padding-bottom: 30px;
 }
 .testimonial-1 .media {
   float: left;
@@ -3500,7 +3507,6 @@ Back To Top Section
   transform: scale(1.05);
   overflow: hidden;
   box-shadow: 10px 10px 5px gray;
-
 }
 .team-image {
   width: 450px;
